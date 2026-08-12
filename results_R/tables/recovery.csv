@@ -1,0 +1,7 @@
+"drug","position","discover_h","take_now_pct","double_pct","skip_pct","recommended"
+"LNG","start",12,2,3.2,3.2,"take_now"
+"LNG","mid",12,2,2.4,2.4,"take_now"
+"DRSP","start",12,2.8,3.2,3.2,"take_now"
+"ETG","mid",12,8.4,23.2,23.2,"take_now"
+"LNGP","mid",12,65.6,77.6,77.6,"take_now"
+"DRSPP","mid",12,4.8,12.4,12.4,"take_now"

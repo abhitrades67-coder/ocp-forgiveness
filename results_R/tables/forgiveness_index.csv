@@ -1,0 +1,6 @@
+"drug","label","missed_to_5pct","defined","perfect_use_escape_pct"
+"LNG","Levonorgestrel COC (0.15 mg)",2.03,TRUE,1.7
+"DRSP","Drospirenone COC (3 mg)",2.28,TRUE,2
+"ETG","Desogestrel POP (etonogestrel)",0.17,TRUE,0.8
+"LNGP","Levonorgestrel POP (0.03 mg)",0,FALSE,47.8
+"DRSPP","Drospirenone POP (4 mg)",0.38,TRUE,0.2

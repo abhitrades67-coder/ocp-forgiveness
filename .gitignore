@@ -1,0 +1,10 @@
+# generated artefacts
+results_R/_ckpt/
+results_R/figures/
+results_R/figures_hi/
+results_R/bundle.rds
+results_R/*.log
+*.Rproj.user
+.Rhistory
+.RData
+__pycache__/

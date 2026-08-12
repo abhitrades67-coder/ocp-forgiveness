@@ -1,0 +1,52 @@
+{
+  "title": "Computational assessment of oral contraceptive forgiveness: model and analysis pipeline",
+  "description": "<p>R implementation of an integrated population-pharmacokinetic and quantitative systems pharmacology model of the hypothalamic-pituitary-ovarian axis, used to quantify the missed-dose tolerance (forgiveness) of five oral contraceptive formulations across pack positions, CYP3A4 status and body weight. Includes the full Monte-Carlo pipeline, the validation and sensitivity analyses, and every result table reported in the accompanying paper.</p>",
+  "license": "mit-license",
+  "upload_type": "software",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Anil, Abhishek",
+      "orcid": "0000-0001-7289-2325",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    },
+    {
+      "name": "Saravanan, Aswini",
+      "orcid": "0000-0001-6680-0762",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    },
+    {
+      "name": "Anil, Sneha",
+      "orcid": "0009-0000-4986-2347",
+      "affiliation": "Department of Obstetrics and Gynaecology, Thiruvalla Medical Mission Hospital, Thiruvalla 689101, Kerala, India"
+    },
+    {
+      "name": "A. S., Archana",
+      "orcid": "0009-0007-5749-5939",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    },
+    {
+      "name": "Jena, Saubhagya Kumar",
+      "orcid": "0000-0002-1041-3541",
+      "affiliation": "Department of Obstetrics and Gynaecology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    },
+    {
+      "name": "Hota, Debasish",
+      "orcid": "0000-0002-7339-1773",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    },
+    {
+      "name": "Srinivasan, Anand",
+      "orcid": "0000-0002-0663-0922",
+      "affiliation": "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    }
+  ],
+  "keywords": [
+    "oral contraceptives",
+    "forgiveness",
+    "missed pills",
+    "quantitative systems pharmacology",
+    "PK-PD modelling",
+    "ovulation suppression"
+  ]
+}

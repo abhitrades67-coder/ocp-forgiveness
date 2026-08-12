@@ -1,0 +1,20 @@
+# Major OB/GYN guideline rules on missed/late oral-contraceptive doses, and how the
+# model represents and reproduces each. Used for the manuscript Guideline-Concordance table.
+# Sources (retrieved June 2026):
+#  FSRH-CHC-2023  = FSRH Clinical Guideline: Combined Hormonal Contraception, Oct 2023.
+#                   https://www.fsrh.org/standards-and-guidance/documents/combined-hormonal-contraception/
+#  FSRH-POP-2022  = FSRH Clinical Guideline: Progestogen-only Pills, Aug 2022 (amended Apr 2026).
+#                   https://www.fsrh.org/standards-and-guidance/documents/cec-ceu-guidance-pop/
+#  CDC-SPR-2024   = CDC U.S. Selected Practice Recommendations for Contraceptive Use, 2024;
+#                   Recommended Actions After Late or Missed Combined Oral Contraceptives.
+#                   https://www.cdc.gov/contraception/hcp/usspr/
+category,guideline_rule,source,model_representation,model_result,concordance
+POP_window,"Traditional levonorgestrel/norethisterone POP: backup if >3 h late",FSRH-POP-2022,"LNGP grace_h = 3 h; low margin, sub-maximal Emax",~48% perfect-use ovulation; least forgiving; forgiveness undefined on ovulation surrogate,concordant
+POP_window,"Desogestrel POP: backup if >12 h late",FSRH-POP-2022,ETG grace_h = 12 h; comfortable perfect-use margin,"reliably suppresses ovulation at perfect use; tolerates ~0 consecutive missed",concordant
+POP_window,"Drospirenone-only pill: backup if >24 h late",FSRH-POP-2022,"DRSPP (Slynd, 4 mg): drospirenone disposition, long t1/2, grace_h = 24 h","reliably inhibits ovulation at perfect use; the most forgiving POP",concordant
+COC_missed,"Missed 1 active pill: take it, no extra precaution, no EC",FSRH-CHC-2023;CDC-SPR-2024,n_missed=1 at challenge pack,escape <=5% at 1 missed for both COC,concordant
+COC_missed,"Missed >=2 active pills: take recent pill, backup 7 days",FSRH-CHC-2023;CDC-SPR-2024,n_missed>=2,"max-tolerated = 2 (95% CI 1-2); escape climbs beyond 2",concordant (at threshold)
+COC_HFI,"7-day rule: need 7 consecutive active pills; extended hormone-free interval is the key risk",FSRH-CHC-2023;CDC-SPR-2024,missed pills at pack start lengthen the hormone-free interval,extended-HFI escape rises 1.7%->17.2% over 0->4 missed start pills,concordant
+COC_position,"Pills missed adjacent to the hormone-free interval are riskiest",FSRH-CHC-2023,position = start/mid/late modelled explicitly,start-of-pack the most fragile on the escape-probability curves,concordant
+ranking,"Forgiveness order: COC > desogestrel-POP > traditional LNG-POP",FSRH-CHC-2023;FSRH-POP-2022,emergent from the model,LNG/DRSP COC (2) > drospirenone-/desogestrel-POP (0; drospirenone-only most forgiving by lateness) > LNG-POP (undefined),concordant
+COC_EC,"Emergency contraception if >7 consecutive COC pills missed in a week",FSRH-CHC-2023,n_missed up to 7 in the escape grid,escape >> 5% well before 7 consecutive missed,concordant (qualitative)

@@ -1,0 +1,7 @@
+"agent","type","model_t_half_h","pub_t_half_h","t_half_ok","model_t_max_h","pub_t_max_h","t_max_ok","model_R_ac","pub_R_ac","source"
+"LNG","independent (literature PK)",26,"24-26","yes",1.84,"1-2","yes",2.12,"-","S5/Stanczyk"
+"DRSP","independent (literature PK)",31,"30.8-32.5","yes",1.9,"1.5-2","yes",2.41,"3","S3 Blode 2000"
+"ETG","independent (literature PK)",25,"25-30","yes",1.82,"1-2","yes",2.06,"-","class/S1 prog."
+"LNGP","independent (literature PK)",26,"24-26","yes",1.84,"1-2","yes",2.12,"-","S5 (=LNG)"
+"DRSPP","independent (literature PK)",31,"30.8-32.5","yes",1.9,"1.5-2","yes",2.41,"3","S3 Blode 2000 (=DRSP)"
+"EE","independent (literature PK)",18,"15-20","yes",1.7,"1-2","yes",1.66,"2.1","S3 Blode 2000"

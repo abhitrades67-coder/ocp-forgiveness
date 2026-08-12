@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the paper."
+title: "Computational assessment of oral contraceptive forgiveness: model and analysis pipeline"
+abstract: >-
+  An integrated population-pharmacokinetic and quantitative systems pharmacology
+  model of the hypothalamic-pituitary-ovarian axis, used to quantify the
+  missed-dose tolerance (forgiveness) of five oral contraceptive formulations
+  across pack positions, CYP3A4 status and body weight.
+type: software
+authors:
+  - given-names: "Abhishek"
+    family-names: "Anil"
+    orcid: "https://orcid.org/0000-0001-7289-2325"
+    affiliation: "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    email: drabhishekanil@gmail.com
+  - given-names: "Aswini"
+    family-names: "Saravanan"
+    orcid: "https://orcid.org/0000-0001-6680-0762"
+    affiliation: "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+  - given-names: "Sneha"
+    family-names: "Anil"
+    orcid: "https://orcid.org/0009-0000-4986-2347"
+    affiliation: "Department of Obstetrics and Gynaecology, Thiruvalla Medical Mission Hospital, Thiruvalla 689101, Kerala, India"
+  - given-names: "Archana"
+    family-names: "A. S."
+    orcid: "https://orcid.org/0009-0007-5749-5939"
+    affiliation: "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+  - given-names: "Saubhagya Kumar"
+    family-names: "Jena"
+    orcid: "https://orcid.org/0000-0002-1041-3541"
+    affiliation: "Department of Obstetrics and Gynaecology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+  - given-names: "Debasish"
+    family-names: "Hota"
+    orcid: "https://orcid.org/0000-0002-7339-1773"
+    affiliation: "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+  - given-names: "Anand"
+    family-names: "Srinivasan"
+    orcid: "https://orcid.org/0000-0002-0663-0922"
+    affiliation: "Department of Pharmacology, All India Institute of Medical Sciences (AIIMS) Bhubaneswar, Bhubaneswar 751019, Odisha, India"
+    email: anandsrinivasan@aiimsbhubaneswar.edu.in
+license: MIT
+version: 1.0.0
+date-released: "2026-08-10"
+keywords:
+  - oral contraceptives
+  - forgiveness
+  - missed pills
+  - quantitative systems pharmacology
+  - pharmacokinetic-pharmacodynamic modelling
+  - ovulation suppression

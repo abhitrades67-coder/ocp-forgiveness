@@ -1,0 +1,6 @@
+"drug","position","mt_1pct","mt_5pct","mt_10pct","cross_1pct","cross_5pct","cross_10pct"
+"LNG","start",-1,2,2,0,2.03,2.89
+"DRSP","start",-1,2,3,0,2.28,3.16
+"ETG","mid",0,0,0,0.01,0.17,0.37
+"LNGP","mid",-1,-1,-1,0,0,0
+"DRSPP","mid",0,0,0,0.06,0.38,0.77

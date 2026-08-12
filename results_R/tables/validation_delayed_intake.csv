@@ -1,0 +1,4 @@
+"drug","type","window_h","model_escape_pct","model_ci_lo","model_ci_hi","published_pct","overprediction_x","interpretation","source"
+"ETG","independent (out-of-sample; delayed-intake trial)",12,10,6.9,14.3,1,10,"ordering concordant; absolute escape overpredicted (conservative surrogate)","Korver 2005 (desogestrel 75 ug, scheduled 12-h delays); 1/103"
+"DRSPP","independent (out-of-sample; delayed-intake trial)",24,15.2,11.3,20.2,0.9,16.9,"ordering concordant; absolute escape overpredicted (conservative surrogate)","Duijkers 2016 (drospirenone-only 4 mg 24/4, scheduled 24-h delays)"
+"LNGP","independent (out-of-sample; delayed-intake trial)",3,53.2,47,59.3,NA,NA,"no clean ovulation target (baseline non-suppression); ordering only","traditional LNG-POP: inhibition lost >3 h late; dominated by ~48% baseline non-suppression (mucus-mediated cover, not ovulation)"

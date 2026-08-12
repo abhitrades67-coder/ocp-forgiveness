@@ -1,0 +1,10 @@
+"drug","label","kind","position","max_tolerated","mt_lo","mt_hi","fi_cross","fi_lo","fi_hi"
+"LNG","Levonorgestrel COC (0.15 mg)","COC","start",2,1,2,2.03,1.21,2.33
+"LNG","Levonorgestrel COC (0.15 mg)","COC","mid",2,1,2,2.29,1.67,2.81
+"LNG","Levonorgestrel COC (0.15 mg)","COC","late",2,1,2,2,1.36,2.38
+"DRSP","Drospirenone COC (3 mg)","COC","start",2,1,2,2.28,1.8,2.65
+"DRSP","Drospirenone COC (3 mg)","COC","mid",2,2,3,2.92,2.21,3.48
+"DRSP","Drospirenone COC (3 mg)","COC","late",2,2,2,2.36,2,2.8
+"ETG","Desogestrel POP (etonogestrel)","POP","mid",0,0,0,0.17,0.13,0.21
+"LNGP","Levonorgestrel POP (0.03 mg)","POP","mid",-1,-1,-1,0,0,0
+"DRSPP","Drospirenone POP (4 mg)","POP","mid",0,0,0,0.38,0.31,0.48

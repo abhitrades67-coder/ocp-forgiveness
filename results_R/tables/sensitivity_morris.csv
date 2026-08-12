@@ -1,0 +1,21 @@
+"drug","scenario","param","label","mu_star","sigma","se_mu_star","r","n_inner"
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","E2_surge","E2 surge set-point",16.04,24.09,3.81,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","F_ov","preovulatory size",13.26,21.69,3.43,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","kgrow","follicle growth rate",9.1,13.15,2.08,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","surge_crit","surge threshold",5.69,13.58,2.15,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","t_half_h","progestin t1/2",0.28,1.08,0.17,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","hill_prog","Hill coefficient",0.28,1.4,0.22,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","emax_prog","Emax (surge block)",0.07,0.44,0.07,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","Vd_L","progestin V/F",0,0,0,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","Ka_h","absorption Ka",0,0,0,40,60
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","margin_prog","forgiveness margin",0,0,0,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","surge_crit","surge threshold",30,14,2.21,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","t_half_h","progestin t1/2",24.86,9.43,1.49,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","margin_prog","forgiveness margin",21.18,12.31,1.95,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","emax_prog","Emax (surge block)",16.18,15.66,2.48,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","E2_surge","E2 surge set-point",12.57,9.09,1.44,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","kgrow","follicle growth rate",5.56,6.29,0.99,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","hill_prog","Hill coefficient",4.03,6.35,1,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","Ka_h","absorption Ka",0.28,0.88,0.14,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","F_ov","preovulatory size",0.14,0.61,0.1,40,60
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","Vd_L","progestin V/F",0,0,0,40,60

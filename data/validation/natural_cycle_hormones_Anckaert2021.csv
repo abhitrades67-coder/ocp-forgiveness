@@ -1,0 +1,39 @@
+# Natural menstrual-cycle serum hormone reference values (untreated cycle).
+# Source: Anckaert E, Jank A, Petzold J, Rohsmann F, Paris R, Renggli M, Schoenfeld K,
+#   Schiettecatte J, Kriner M. "Extensive monitoring of the natural menstrual cycle using
+#   the serum biomarkers estradiol, luteinizing hormone and progesterone."
+#   Practical Laboratory Medicine 2021;25:e00211. doi:10.1016/j.plabm.2021.e00211 (PMID 33869706).
+#   Open access (CC BY-NC-ND). N=85 healthy women, ~3 samples/week over one cycle,
+#   Roche Elecsys (cobas e801). Cycles normalised to 29 days with ovulation on day 15.
+# Values are serum medians with 5th-95th percentiles, transcribed from the article tables.
+# day_from_ovulation = (representative cycle day) - 15. Used by R/validate_cycle.R to validate
+# the units-independent SHAPE of the untreated HPO oscillator (phase fold-amplitudes), not
+# absolute concentrations (model hormones are in arbitrary units). Metadata via PubMed.
+hormone,resolution,phase,day_from_ovulation,median,p5,p95,unit,source
+E2,phase,follicular,-7,198,114,332,pmol/L,Anckaert2021_PLM_e00211
+E2,phase,ovulation,0,757,222,1959,pmol/L,Anckaert2021_PLM_e00211
+E2,phase,luteal,7,412,222,854,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,early_follicular,-12,125,75.5,231,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,late_follicular,-3,464,182,858,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,ovulation,0,817,222,2212,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,early_luteal,4,390,188,658,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,intermediate_luteal,8,505,244,1123,pmol/L,Anckaert2021_PLM_e00211
+E2,subphase,late_luteal,12,396,111,815,pmol/L,Anckaert2021_PLM_e00211
+LH,phase,follicular,-7,7.14,4.78,13.2,IU/L,Anckaert2021_PLM_e00211
+LH,phase,ovulation,0,22.6,8.11,72.7,IU/L,Anckaert2021_PLM_e00211
+LH,phase,luteal,7,6.24,2.73,13.1,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,early_follicular,-12,6.41,3.12,9.79,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,late_follicular,-3,8.52,5.12,16.3,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,ovulation,0,24.0,7.66,71.1,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,early_luteal,4,9.66,4.90,16.1,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,intermediate_luteal,8,5.36,1.97,11.6,IU/L,Anckaert2021_PLM_e00211
+LH,subphase,late_luteal,12,5.00,1.86,11.7,IU/L,Anckaert2021_PLM_e00211
+P4,phase,follicular,-7,0.212,0.159,0.616,nmol/L,Anckaert2021_PLM_e00211
+P4,phase,ovulation,0,1.81,0.175,13.2,nmol/L,Anckaert2021_PLM_e00211
+P4,phase,luteal,7,28.8,13.1,46.3,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,early_follicular,-12,0.380,0.159,1.03,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,late_follicular,-3,0.188,0.159,0.688,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,ovulation,0,1.59,0.159,7.49,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,early_luteal,4,22.6,7.53,48.0,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,intermediate_luteal,8,39.2,15.2,66.5,nmol/L,Anckaert2021_PLM_e00211
+P4,subphase,late_luteal,12,18.2,1.71,43.1,nmol/L,Anckaert2021_PLM_e00211

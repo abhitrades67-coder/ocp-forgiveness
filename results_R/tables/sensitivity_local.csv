@@ -1,0 +1,21 @@
+"drug","scenario","param","label","escape_base","escape_minus20","escape_plus20","swing_pp"
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","kgrow","follicle growth rate",4,0.3,22,21.7
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","surge_crit","surge threshold",4,10.3,2.3,8
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","F_ov","preovulatory size",4,4,0,4
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","t_half_h","progestin t1/2",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","Vd_L","progestin V/F",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","Ka_h","absorption Ka",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","margin_prog","forgiveness margin",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","emax_prog","Emax (surge block)",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","hill_prog","Hill coefficient",4,4,4,0
+"LNG","COC: LNG, 2 missed at start (tolerance boundary)","E2_surge","E2 surge set-point",4,0,0,0
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","surge_crit","surge threshold",26,35.7,17.7,18
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","margin_prog","forgiveness margin",26,36.3,19,17.3
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","t_half_h","progestin t1/2",26,36.3,19.7,16.7
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","emax_prog","Emax (surge block)",26,38.7,24,14.7
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","E2_surge","E2 surge set-point",26,27.3,18.3,9
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","kgrow","follicle growth rate",26,21.7,27,5.3
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","hill_prog","Hill coefficient",26,25,26,1
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","Ka_h","absorption Ka",26,25.3,26,0.7
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","Vd_L","progestin V/F",26,26,26,0
+"ETG","POP: desogestrel, 1 missed mid (tolerance boundary)","F_ov","preovulatory size",26,26,26,0

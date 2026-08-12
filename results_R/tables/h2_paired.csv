@@ -1,0 +1,7 @@
+"contrast","diff","ci_lo","ci_hi","p_diff_ge0","excludes_zero","drug","fi_start","fi_mid","fi_late"
+"start - mid",-0.257,-0.665,-0.109,0.005,TRUE,"LNG",2.029,2.286,2
+"start - late",0.029,-0.306,0.265,0.466,FALSE,"LNG",2.029,2.286,2
+"mid - late",0.286,0.144,0.565,1,TRUE,"LNG",2.029,2.286,2
+"start - mid",-0.647,-1.082,-0.181,0.002,TRUE,"DRSP",2.276,2.923,2.36
+"start - late",-0.084,-0.429,0.158,0.275,FALSE,"DRSP",2.276,2.923,2.36
+"mid - late",0.563,0.218,0.81,1,TRUE,"DRSP",2.276,2.923,2.36

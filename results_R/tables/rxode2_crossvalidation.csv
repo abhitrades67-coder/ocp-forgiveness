@@ -1,0 +1,5 @@
+"scenario","ov_rk4","ov_rx","ov_max_dt_d","ov_consistent","follicle_rmse","follicle_maxabs","follicle_scale","e2_rmse","e2_maxabs"
+"A_untreated",3,3,0,TRUE,0,0,11.2,0,0
+"B_perfect_LNG",0,0,NA,TRUE,0.0044,0.0065,8.37,0.0176,0.0248
+"C_perfect_LNGP",2,2,0,TRUE,0,0,14.7,0,0
+"D_LNG_miss6_start",0,0,NA,TRUE,0.0031,0.0055,10.98,0.0124,0.0214

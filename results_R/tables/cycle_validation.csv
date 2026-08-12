@@ -1,0 +1,7 @@
+"feature","model","literature_median","literature_5_95","verdict"
+"untreated cycle length (days)",28.1,28.5,"25-32","consistent"
+"luteal-phase duration (days)",11.8,14,"11-16","consistent"
+"E2 peri-ovulatory:follicular fold",1.42,3.82,"1.12-9.89","consistent"
+"E2 luteal:follicular fold",0.31,2.08,"1.12-4.31","reduced-model limitation (luteal feature minimal/absent)"
+"LH peri-ovulatory:follicular fold",4.25,3.17,"1.14-10.18","consistent"
+"P4 luteal:follicular fold",2.49,135.85,"61.79-218.40","direction-consistent (reduced-model amplitude compression)"

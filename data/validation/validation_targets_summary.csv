@@ -1,0 +1,22 @@
+# Published quantitative targets the model is qualified against (predictive check vs
+# summary statistics; no raw individual-level missed-pill ovulation data are public).
+# Full bibliographic provenance in PROVENANCE_AND_VALIDATION.md (sources S1-S6, PubMed-verified).
+arm,quantity,agent,model_value,published_value,source
+PK,half-life (h),LNG,26,24-26,Carol1992_ExpClinEndocrinol
+PK,half-life (h),DRSP,31,30.8-32.5,Blode2000_EurJContracept
+PK,half-life (h),EE,18,15-20,Blode2000;Carol1992
+PK,t_max (h),DRSP,1.9,1.5-2.0,Blode2000_EurJContracept
+PK,accumulation ratio,EE,1.7,2.1,Blode2000_EurJContracept
+PD_perfect_use,ovulation rate (%),LNG_COC,1.7,0-2,Elomaa1998;Rice1999
+PD_perfect_use,ovulation rate (%),DRSP_COC,2.0,0-2,class/Elomaa1998
+PD_perfect_use,ovulation inhibition,ETG_DSG_POP,0.8,>97% inhibition (1-3%),Rice1999_HumReprod
+PD_perfect_use,ovulation rate (%),LNGP_POP,47.8,40-60,Rice1999_HumReprod
+PD_missed_pill,COC max-tolerated consecutive missed,LNG_COC,2,"no ovulation at <=3 missed start pills + extended HFI",Elomaa1998_AmJObstetGynecol
+Pearl,perfect-use Pearl Index (/100 WY),LNG_COC,0.28,~0.3,Trussell_published
+Pearl,perfect-use Pearl Index (/100 WY),DRSP_COC,0.34,~0.3,Trussell_published
+Pearl,perfect-use Pearl Index (/100 WY),ETG_DSG_POP,0.32,~0.3,Trussell_published
+Pearl,perfect-use Pearl Index (/100 WY),LNGP_POP,1.22,~1.1,Trussell_published
+cycle,untreated cycle length (d),none,see cycle_validation.csv,28-29,Anckaert2021_PLM_e00211
+cycle_shape,E2 ovulation:follicular fold,none,see cycle_validation.csv,3.8,Anckaert2021_PLM_e00211
+cycle_shape,LH ovulation:follicular fold,none,see cycle_validation.csv,3.2,Anckaert2021_PLM_e00211
+cycle_shape,P4 luteal:follicular fold,none,see cycle_validation.csv,>100,Anckaert2021_PLM_e00211

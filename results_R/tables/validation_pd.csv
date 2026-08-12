@@ -1,0 +1,6 @@
+"drug","label","type","n","model_ovulation_pct","model_ci_lo","model_ci_hi","pub_lo","pub_hi","consistent","source"
+"LNG","Levonorgestrel COC (0.15 mg)","calibration target",600,1.7,0.9,3,0,2,"yes","perfect-use COC ~98-99% suppression (calibration)"
+"DRSP","Drospirenone COC (3 mg)","calibration target",600,2,1.1,3.5,0,2,"yes","perfect-use COC ~98-99% suppression (calibration)"
+"ETG","Desogestrel POP (etonogestrel)","calibration target",600,0.8,0.4,1.9,0,3,"yes","S1 Rice 1999 desogestrel >97% (calibration)"
+"LNGP","Levonorgestrel POP (0.03 mg)","calibration target",600,47.8,43.9,51.8,40,60,"yes","S1 Rice 1999 LNG-POP partial (calibration)"
+"DRSPP","Drospirenone POP (4 mg)","calibration target",600,0.2,0,0.9,0,3,"yes","drospirenone-only reliably inhibits ovulation (calibration)"
